@@ -45,7 +45,7 @@ class Ring {
 class RingModel : public NeutralGasAbstract {
   private:
 	std::shared_ptr<RingData> dataPtr;
-	std::array<QLength, 12> boundariesHI = {0_kpc, 2_kpc, 3_kpc,  4_kpc,  5_kpc,  6_kpc,
+	std::array<QLength, 12> boundariesHI = {0_kpc, 0.6_kpc, 2_kpc,  4_kpc,  5_kpc,  6_kpc,
 	                                        7_kpc, 9_kpc, 12_kpc, 15_kpc, 18_kpc, 35_kpc};
 	std::array<QLength, 12> boundariesH2 = {0_kpc, 0.86_kpc, 2_kpc, 3_kpc,  4_kpc,  5_kpc,
 	                                        6_kpc, 7_kpc,    9_kpc, 12_kpc, 15_kpc, 18_kpc};
