@@ -19,6 +19,7 @@ class RingData {
 
 	const GasType type;
 	int n_lon, n_lat, n_rings;
+	int crpix_lon, crpix_lat;
 	double min_lon, min_lat;
 	double delta_lon, delta_lat;
 	std::vector<float> dataVector;
