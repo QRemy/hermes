@@ -11,7 +11,7 @@ namespace hermes { namespace neutralgas {
 
 RingData::RingData(GasType gas) : type(gas) {
 	if (gas == GasType::HI) {
-		readDataFile("NHtot_rings.fits");
+		readDataFile("NHtot_rings_emissivity_gradient.fits");
 	}
 	if (gas == GasType::H2) {
 		readDataFile("WCOrings_COGAL.fits.gz");
